@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/appBackground">
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:src="@drawable/vs_list"
+        android:id="@+id/list_img_view"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        style="@style/ListRelativeLayoutStyle">
+
+        <TextView
+            style="@style/AttractionListHeading"
+            android:id="@+id/list_attraction_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_attraction_name"
+            android:id="@+id/list_attraction_description"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/appBackground"
+        tools:context="com.ms1.explorebangalore.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bangalore_heading"
+            android:gravity="center"
+            style="@style/HeadingText"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/vs_main"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/click_on_below"
+            style="@style/HeadingText"/>
+
+        <Button
+            android:text="@string/attractions"
+            android:id="@+id/main_attractions_btn"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:text="@string/shopping_malls"
+            android:id="@+id/main_shopping_btn"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:text="@string/it_hubs"
+            android:id="@+id/main_it_hubs_btn"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:text="@string/transport"
+            android:id="@+id/main_transport_btn"
+            style="@style/ButtonStyle"/>
+    </LinearLayout>
+</ScrollView>
+
